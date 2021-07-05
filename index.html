@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web Developer</title>
+    <link rel="stylesheet" href="./Css/all.min.css" type="text/css">
+    <link rel="stylesheet" href="./Css/utils.css" type="text/css">
+    <link rel="stylesheet" href="./Css/index.css" type="text/css">
+    <link rel="stylesheet" href="./Css/mediaquery.css" type="text/css">
+</head>
+
+<body>
+    <div class="image-container">
+        <img class="coding-img img" src="./Images/bg-image.jpg" alt="Web Developer">
+        <p class="title title-1">BECOME A WEB DEVELOPER</p>
+
+        
+    </div>
+
+    <header>
+        <nav class="navbar">
+            <div class="toggle-btn"  onclick ="show()" >
+              <i class="fas fa-home"></i>
+            </div>
+
+            <div class="container" id="sidebar">
+                <ul>
+                    <li><a href="#">Home</a> </li>
+                    <li><a href="#html">HTML</a></li>
+                    <li><a href="#css">CSS</a></li>
+                    <li><a href="#javascript">JavaScript</a></li>
+                </ul>
+            </div>
+        </nav>   
+    </header>
+
+
+
+    <section id="html">
+        <div class="image-container">
+            <img class="html-img img" src="./Images/html-image.jpg" alt="HTML">
+            
+            <p class="title title-2">Learn html <br> <span class="info">Hyper Text Markup Language</span></p>
+        </div>
+
+
+    </section>
+    <section  id="css">
+        <div class="image-container">
+            <img class="css-img img" src="./Images/css-image.jpg" alt="HTML">
+            <p class="title title-3">Learn css <br> <span class="info">Cascading Style Sheet</span> </p>
+        </div>
+    </section>
+    <section id="javascript">
+        <div class="image-container">
+            <img class="javascript-img img" src="./Images/javascript.png" alt="HTML">
+            <p class="title title-4">Learn javascript</p>
+        </div>
+    </section>
+
+
+<footer class="footer">
+    All Rights Reserved  &#169;    Team 7  &#64;  2021 
+</footer>
+
+
+
+<script>
+    function show() {
+        
+      document.getElementById('sidebar').classList.toggle('active');
+    }
+  </script>
+</body>
+
+</html>

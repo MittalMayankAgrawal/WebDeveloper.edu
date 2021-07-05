@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Bona+Nova&family=Tourney:wght@100&family=Zen+Tokyo+Zoo&family=Alfa+Slab+One&display=swap');
+*{
+   margin: 0;
+   padding: 0;
+}
+
+/* BACKGROUND-IMAGE OF CODING/FIRST IMAGE */
+
+.coding-img{
+    height: 130vh;
+}
+
+/* NAVIGATION BAR  */
+.navbar{
+    position: fixed; 
+    
+    /* nothing can overwrite our navbar  */
+    top: 5px;
+}
+
+.container ul {
+    top: 0px;
+    position:fixed;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 20px; 
+}
+
+.container ul li {
+    list-style: none;
+    font-family: 'Tourney', cursive;
+    font-size: 2em;
+}
+
+/* NAVIGATION BAR STYLING */
+a{
+    color: white;
+    text-decoration: none;
+    
+
+}
+a:hover { 
+    text-decoration: underline white;
+     color: #011627;
+}
+.title-1 {
+    cursor: pointer;
+    color:whitesmoke;
+    font-size: 3em;
+    top: 20%;
+    left: 25%;
+}
+
+
+/* HTML IMAGE /SECOND IMAGE */
+
+.html-img{
+    height: 150vh;
+
+}
+.title-2 { 
+    top: 120%;
+}
+
+/* CSS IMAGE /THIRD IMAGE */
+
+.css-img{
+    height: 125vh;
+
+}
+.title-3 { 
+    top: 230%;
+
+}
+
+/* JAVASCRIPT IMAGE/FOURTH IMAGE */
+.javascript-img{
+    height: 120vh;
+
+}
+
+.title-4 { 
+    top: 340%;
+    left: 30%;
+}
+

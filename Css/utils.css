@@ -1,0 +1,46 @@
+.title {
+    text-decoration: none;
+    text-align: center;
+    position: absolute;
+    color:black;
+    font-family: 'Zen Tokyo Zoo', cursive;
+    font-size: 5rem;
+    left: 25%;
+    
+}
+.image-container{
+    height: 110vh;
+    overflow: hidden;
+}
+
+.img{
+    width: 100vw;
+    position:static;
+    /*static will make the anchor tags clickable  */
+}
+.info{
+    font-family: 'Tourney', cursive;
+    font-size: 3rem;
+    
+}
+.footer{
+   
+    background-color: black;
+    color: white;
+    font-family: 'Bona Nova', serif;
+    text-align: center;
+    justify-content: center;
+    padding: 15px;
+    font-size: larger;
+}
+
+.fas{
+    display:none;
+    cursor: pointer;
+    position: absolute; 
+    font-size:2.1em;
+    line-height: 2;
+    color: white;
+
+
+}
